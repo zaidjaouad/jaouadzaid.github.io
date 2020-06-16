@@ -1,0 +1,298 @@
+/*style partie body*/
+
+body {
+
+    display: flex
+}
+
+
+
+                          /*style partie left*/
+
+
+
+.left {
+
+    background-color: #E3E314  ;
+    width: 400px;
+    
+    text-align: center;
+    color: red;
+    
+}
+
+
+.photo {
+
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px white;
+    
+}
+
+figure {
+
+    text-align: center;
+}
+   
+
+
+}
+
+
+.loisirs {
+
+    text-align: center;
+}
+
+
+.contact, .profil, .hoby {
+
+    background-color: RED;
+    border-bottom: solid white;
+    font-size: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    text-align: center;
+   
+}
+
+
+
+.my {
+
+    font-size:20px;
+    line-height: 30px;
+
+    text-align: justify;
+
+    height: 500px;
+
+   padding: 0px 20px 10px 20px;
+
+    
+
+    margin: 10px 10px 10px 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+                            /*style partie right*/
+
+
+                            
+   
+.right {
+
+    background-color: red  ;
+    width: 950px;
+    height: 100%;
+    padding-left: 30px;
+    color: yellow;
+}
+
+.dev {
+
+    color: #E3E314;
+
+    font-size: 20px;
+   
+    padding-bottom: 60px;
+}
+
+.moi {
+    font-size: xx-large;
+    text-align: start;  
+   
+}
+
+h1 {
+
+    font-size: 40px;
+    color:#E3E314;
+   
+
+    
+    padding-top: 50px;
+}
+
+.zaid {
+
+    color: white;    
+}
+
+
+.formations, .experience, .recomendation {
+
+    text-align: center;
+    
+    border-bottom: solid white;
+    font-size: 40px;
+
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+.info-one, .info-two, .info-three {
+
+    display: flex;
+  
+}
+
+
+
+.experience-one, .experience-two, .experience-three {
+
+    display: flex;
+
+    margin-right: 10px;
+}
+
+
+
+
+.dates{
+
+    padding-top: 18px;
+
+    display: flex;
+
+    
+    font-size: large;  
+
+    margin-left: 10px;
+
+}
+
+.titre {
+
+    padding-left: 50px;
+    
+}
+
+.fas {
+
+    margin-left: 10px;
+
+    margin-right: 20px;
+    border-radius: 50%;
+    
+
+    
+}
+
+.motifs {
+
+    display: flex;
+
+    justify-content: center;
+
+    justify-content: space-around;
+
+    
+}
+
+
+
+.souligner {
+
+    border-bottom: solid white;
+}
+
+.resumé {
+
+    color: yellow;
+}
+
+.rec {
+
+    display: flex;
+
+    text-align: justify;
+
+   justify-content: space-around;
+
+    font-size: 20px;
+    
+}
+
+/* styles media query */
+
+@media screen and (max-width: 500px) {
+
+    body {
+
+        display: block;
+
+        
+    }
+
+    .left {
+
+        width: 100%;
+
+       
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .right {
+
+        width: 100%;
+
+       
+
+        
+        
+
+        
+    }
+
+    .info-one, .info-two, .info-three {
+
+        display: block;
+        text-overflow: ellipsis;
+    }
+
+    .experience-one, .experience-two, .experience-three {
+
+        display: block;
+        text-overflow: ellipsis;
+       
+    }
+
+    .photo {
+
+        margin-top: 20px;
+    }
+
+    .right, .left {
+
+        display: inline-block;
+
+        
+    }
+
+   
+
+
+
+    
+}
+
+
+
